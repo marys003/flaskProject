@@ -14,6 +14,7 @@ def hello_world():
 def greet():
     return 'Hello'
 
+
 @app.route('/f/<celsius_str>')
 def convert_celsius_to_fahrenheit(celsius_str):
     try:
